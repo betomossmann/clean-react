@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests",
-    "test:watch": "npm jest -- --watch",
-    "test:staged": "npm jest -- --findRelatedTests",
-    "test:ci": "npm jest -- --coverage"
+    "test:watch": "jest --watch",
+    "test:staged": "jest --findRelatedTests",
+    "test:ci": "jest --coverage"
   },
   "repository": {
     "type": "git",
