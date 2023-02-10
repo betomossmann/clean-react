@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/betomossmann/clean-react#readme",
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
     "@types/faker": "^6.6.9",
     "@types/jest": "^29.4.0",
     "@types/node": "^18.13.0",
