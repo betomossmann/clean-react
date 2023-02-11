@@ -1,4 +1,4 @@
-const { CleanWebpackPlugin } = require("clean-webpack-plugin")
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
   mode: 'development',
@@ -10,8 +10,25 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.scss'],
     alias: {
-      '@': path.resolve(__dirname,'src')
+      '@': path.resolve(__dirname, 'src')
     }
+  },
+  module: {
+    rules: [{
+      test: /\.ts(x?)$/,
+      use: 'ts-loader',
+      exclude: /node_modules/
+    }, {
+      test: /\.scss$/,
+      use: [{
+        loader: 'style-loader'
+      }, {
+        loader: 'css-loader',
+        module: true
+      }, {
+        loader: 'sass-loader'
+      }]
+    }]
   },
   devServer: {
     contentBase: './public',
