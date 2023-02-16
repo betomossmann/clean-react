@@ -29,13 +29,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/presentation/components/router/router.tsx":
-/*!*******************************************************!*\
-  !*** ./src/presentation/components/router/router.tsx ***!
-  \*******************************************************/
+/***/ "./src/main/index.tsx":
+/*!****************************!*\
+  !*** ./src/main/index.tsx ***!
+  \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/dist/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router/dist/index.js\");\n/* harmony import */ var _presentation_pages__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/presentation/pages */ \"./src/presentation/pages/index.ts\");\n/* harmony import */ var _presentation_styles_global_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/presentation/styles/global.scss */ \"./src/presentation/styles/global.scss\");\n\n\n\n\nconst Router = () => {\n    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.BrowserRouter, null,\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Routes, null,\n            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, { path: \"/login\", element: react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_presentation_pages__WEBPACK_IMPORTED_MODULE_1__.Login, null) }))));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Router);\n\n\n//# sourceURL=webpack://clean-react/./src/presentation/components/router/router.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"react-dom\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _presentation_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/presentation/components */ \"./src/presentation/components/index.ts\");\n/* harmony import */ var _presentation_styles_global_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/presentation/styles/global.scss */ \"./src/presentation/styles/global.scss\");\n\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default().render(react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_presentation_components__WEBPACK_IMPORTED_MODULE_2__.Router, null), document.getElementById('main'));\n\n\n//# sourceURL=webpack://clean-react/./src/main/index.tsx?");
 
 /***/ })
 
@@ -43,7 +43,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ /* webpack/runtime/getFullHash */
 /******/ (() => {
-/******/ 	__webpack_require__.h = () => ("7269104766bf905c8c10")
+/******/ 	__webpack_require__.h = () => ("2ff2e828c8c9283172e5")
 /******/ })();
 /******/ 
 /******/ }

@@ -26,6 +26,7 @@
   "homepage": "https://github.com/betomossmann/clean-react#readme",
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
+    "@testing-library/react": "^13.4.0",
     "@types/axios": "^0.14.0",
     "@types/faker": "^6.6.9",
     "@types/jest": "^29.4.0",
@@ -50,6 +51,7 @@
     "husky": "^8.0.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.4.2",
+    "jest-environment-jsdom": "^29.4.3",
     "lint-staged": "^13.1.1",
     "node-sass": "^8.0.0",
     "sass-loader": "^13.2.0",
